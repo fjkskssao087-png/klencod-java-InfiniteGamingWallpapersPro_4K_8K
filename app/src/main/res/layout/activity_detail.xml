@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark">
+
+    <ImageView
+        android:id="@+id/detailImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:background="#EE050811"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="6dp">
+
+            <TextView
+                android:id="@+id/detailCategory"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Category"
+                android:textColor="@color/accent_blue"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/detailRes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8K UHD"
+                android:textColor="@color/gold"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/detailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wallpaper Title"
+            android:textColor="@color/text_white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnSetHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✨ تعيين للشاشة الرئيسية"
+            android:backgroundTint="@color/accent_blue"
+            android:textColor="@color/text_white"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnSetLock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔒 تعيين لشاشة القفل"
+            android:backgroundTint="@color/surface_card"
+            android:textColor="@color/text_white"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnDownload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📥 تحميل وتحفظ المعرض (4K/8K)"
+            android:backgroundTint="#065F46"
+            android:textColor="@color/text_white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

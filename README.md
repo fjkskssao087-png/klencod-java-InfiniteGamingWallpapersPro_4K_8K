@@ -1,2 +1,3 @@
-# klencod-java-InfiniteGamingWallpapersPro_4K_8K
-Project created by KLENCOD IDE
+# Infinite Gaming Wallpapers Pro 4K/8K
+
+تطبيق أندرويد متكامل بلغة Java للخلفيات الفاخرة عبر الإنترنت بجودة 4K و 8K.
